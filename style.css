@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn2.steamgriddb.com/hero/3383ecc5c97cc5ce4a9c95f7b55d1530.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header h1 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+.randomizer-container {
+    text-align: center;
+    color: white;
+}
+
+.randomizer-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.randomizer-images img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    animation: pop-up 0.5s ease-in-out;
+}
+
+@keyframes pop-up {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+button {
+    background-color: #61dafb;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.character-image {
+    margin-top: 20px;
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    flex: 1;
+}
+
+
+.footer {
+    background-image: url('https://catwithmonocle.com/wp-content/uploads/2019/08/featured-mariokarttour-tile-black.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    opacity: 0.9; 
+    width: 100%;
+    margin-top: auto; 
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
+    z-index: 0;
+}
+
+.footer p {
+    position: relative;
+    z-index: 1; 
+}
+
+
+.randomizer-images img {
+    width: 150px;  
+    height: auto;  
+    border-radius: 10px;
+}
+
+
+.character-image img {
+    width: 120px;  
+    height: auto; 
+    border-radius: 10px;
+    animation: pop-in 0.5s ease-in-out;  
+}
+
+
+@keyframes pop-in {
+    0% {
+        transform: scale(0);   
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);  
+        opacity: 1;
+    }
+}
