@@ -1,8 +1,8 @@
 //ill lable these at some point
-const kartFolder = '/assets/kart/';
-const tiresFolder = '/assets/tires/';
-const gliderFolder = '/assets/glider/';
-const characterFolder = '/assets/character/';
+const kartFolder = 'assets/kart/';
+const tiresFolder = 'assets/tires/';
+const gliderFolder = 'assets/glider/';
+const characterFolder = 'assets/character/';
 
 const kartImageCount = 41;    
 const tiresImageCount = 22;    
